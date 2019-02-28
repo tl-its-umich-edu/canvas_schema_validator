@@ -8,12 +8,12 @@ permitted_datatypes = []
 for line in open("reserved_words.txt", "r"):
     line = line.rstrip()
     if not line.startswith("#"):
-        reserved_words.append(line)
+        reserved_words.append(line.upper())
 
 for line in open("data_types.txt"):
     line = line.rstrip()
     if not line.startswith("#"):
-        permitted_datatypes.append(line)
+        permitted_datatypes.append(line.upper())
 
 schema_file = "https://portal.inshosteddata.com/api/schema/latest"
 

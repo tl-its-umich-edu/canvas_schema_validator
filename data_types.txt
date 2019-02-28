@@ -1,35 +1,14 @@
-# From https://docs.aws.amazon.com/redshift/latest/dg/c_Supported_data_types.html
-SMALLINT
-INT2
-INTEGER
-INT
-INT4
-BIGINT
-INT8
-DECIMAL
-NUMERIC
-REAL
-FLOAT4
-DOUBLE PRECISION
-FLOAT8
-FLOAT
-BOOLEAN
-BOOL
-CHAR	
-CHARACTER
-NCHAR
-BPCHAR
-VARCHAR
-CHARACTER VARYING
-NVARCHAR
-TEXT
-DATE
-TIMESTAMP
-TIMESTAMP WITHOUT TIME ZONE
-TIMESTAMPTZ
-TIMESTAMP WITH TIME ZONE
+# These types from https://github.com/instructure/canvas-data-loader/blob/master/src/type_converter.rs
 
-# These aren't technically supported but seems to be loading appropriately
-ENUM
-GUID
-DATETIME
+bigint
+boolean
+double precision
+enum
+int
+integer
+text
+timestamp
+date
+varchar
+guid
+datetime
