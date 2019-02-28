@@ -32,7 +32,9 @@ CURRENT_TIME
 CURRENT_TIMESTAMP
 CURRENT_USER
 CURRENT_USER_ID
-DEFAULT
+# Even though DEFAULT is reserved, it's seems like it's being allowed and altered
+# https://github.com/instructure/canvas-data-loader/blob/be6a558ef4455f4f8e0fb5f4333cc4001c49bb13/src/db_client.rs#L160
+# DEFAULT
 DEFERRABLE
 DEFLATE
 DEFRAG
